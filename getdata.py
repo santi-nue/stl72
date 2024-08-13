@@ -3,9 +3,9 @@ import time
 import json
 
 # Define the API endpoint
-api_url = "https://api.adsb.one/v2/point/39.912781/32.788112/150" 
+api_url = "https://api.adsb.one/v2/point/39.912781/32.788112/60" 
 # Define the number of requests and the delay
-num_requests = 2
+num_requests = 100
 delay = 4  # seconds
 
 # Open a file to write the JSON responses
